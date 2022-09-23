@@ -3,5 +3,7 @@
 export(hello)
 export(rcpp_hello)
 import(Rcpp)
+import(RcppArmadillo)
+import(RcppParallel)
 importFrom(Rcpp,evalCpp)
 useDynLib(btbtemp)

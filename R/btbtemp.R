@@ -1,6 +1,6 @@
 #' btbtemp
 
-#' @import Rcpp
+#' @import Rcpp RcppArmadillo RcppParallel
 #' @importFrom Rcpp evalCpp
 #' @useDynLib btbtemp
 #' @name btbtemp
